@@ -1,0 +1,92 @@
+  *{
+  box-sizing: border-box;
+  margin: 0;
+}
+.symbol{
+  height: 30px;
+  width: 30px; 
+  float:right; 
+  margin-top: 15px;
+}
+.symbol:hover{
+  border-bottom: 2px solid black;
+}
+input[type="submit"], [type="reset"] {
+  border-bottom: 4px solid black;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+input[type="text"], [type="email"]{
+  width: 500px;
+  padding: 15px;
+  border-bottom: 4px solid black;
+  border-radius: 50px;
+  background-color: lightblue;
+}
+
+input:hover {
+  background-color: #0000ff;
+}
+label{
+  padding: 25px;
+  font-size: 20px;
+  margin-right: 50px;
+}
+form{
+  position: relative;
+  top: 70px;
+  left: 80px;
+}
+header{
+  background-color: #0000ff;
+  padding: 20px;
+}
+.login{
+  float: left;
+  width: 75%;
+  background-color: lightgray;
+  height: 500px;
+}
+.side{
+  width: 25%;
+  height: 500px;
+  float: left;
+  background-color: lightblue;
+}
+.stay{
+  
+  background-color: navy;
+  border: 2px solid black;
+}
+
+.side ul li:hover{
+  background-color: navy;
+  color: white;
+  border: 2px solid black;
+
+}
+.side ul li{
+  text-decoration: none;
+  color: black;
+  position:relative;
+  margin-left:-40px;
+  font-size: 35px;
+  list-style-type: none;
+
+}
+
+footer{
+  background-color: #0000ff;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.nav{
+  display: flex;
+  overflow: hidden; 
+}
+input[placeholder="Enter Your Name"], [placeholder="Enter Your E-mail"]{
+  text-align: center;
+  font-size: 20px;
+}
